@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Sampletable" max_length="40" name="x_362977_gitreposi_sampletable" type="collection">
+        <element label="chiku" max_length="40" name="chiku" type="string"/>
         <element label="col1" max_length="40" name="col1" type="string"/>
-        <element label="col2" max_length="40" name="col2" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="col2" max_length="40" name="col2" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="col5" max_length="40" name="col5" type="integer"/>
+        <element label="col6" max_length="40" name="col6" type="string"/>
     </element>
 </database>
